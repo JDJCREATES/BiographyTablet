@@ -1,0 +1,25 @@
+.iconContainer {
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 100%;
+    height: fit-content;
+    padding: var(--padding-lg);
+    box-shadow: inset 0 0 5px whitesmoke;
+    margin: var(--margin-hg);
+}
+
+.iconContainer:hover {
+    box-shadow: inset 0 0 10px white;
+    
+}
+
+.icon:hover {
+    
+    
+}
+
+.appTitle {
+    font-weight: 300;
+    font-size: xx-small;
+    font-stretch: condensed;
+}

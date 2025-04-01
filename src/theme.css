@@ -1,0 +1,59 @@
+
+/* 
+#632626 Deep Red
+#9D5353 light Red
+#BF8B67 Tan/Brown
+#DACC96 Cream
+ */
+
+ /* I am using a central file to manage variables for any main css settings i may want to adjust in a singular location, planning to also add support for light/dark themes */
+:root
+{   
+    /* THEMED COLORS MAIN */ 
+    --bgcolor: #DACC96;
+    --cardcolor: #BF8B67;
+    --textcolor1: #632626;
+    --textcolor2: #9D5353;
+
+    --silver-light: #f0f0f0;
+    --silver-medium: #c0c0c0;
+    --silver-dark: #a9a9a9;
+    --silver-highlight: #ffffff;
+
+    /* TABLET COLORS */
+    --shell: #0C0C0C;
+    --inner-button: #37373787;
+
+    /* Icon Colors */
+    --icon-main: 
+    
+    /* OPACITY */
+    --invisible: rgba(255, 255, 255, 0.004);
+    --transparent-black: rgba(0, 0, 0, 0.45);
+
+    /* SPACING */
+    --padding-sm: 1%;
+    --padding-md: 2.5%;
+    --padding-lg: 4%;
+    --padding-hg: 12%;
+
+    --margin-sm: 1%;
+    --margin-md: 3%;
+    --margin-lg: 5%;
+    --margin-hg: 10%;
+
+    /* BORDERS */
+    --bordercolor: #9D5353;
+    
+    --radius-sm: 2em;
+    --radius-md: 5em;
+    --radius-lg: 10em;
+
+    /* TEXT */
+    --h1-size: 7%;
+    --body-size: 2.5%;
+    --tooltip-size: 1%;
+    
+    
+
+}
