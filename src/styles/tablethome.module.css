@@ -29,19 +29,3 @@
     scale: 95%;
 }
 
-.actionContainer {
-    background-color: var(transparent-black);
-    display: flex;
-    position: relative;
-    left: 97%;
-    align-self: center;
-    align-content: center;
-}
-
-.backButtonContainer {
-
-}
-
-.backButton {
-
-}

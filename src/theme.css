@@ -1,21 +1,18 @@
 
-/* 
-#632626 Deep Red
-#9D5353 light Red
-#BF8B67 Tan/Brown
-#DACC96 Cream
- */
+/*11. Midnight Eagle Green + Metallic Seaweed Blue Color Palette
+Midnight Eagle Green + Metallic Seaweed Blue Color Palette
+Hex Codes: #177e89 // #084c61 // #db3a34 // #ffc857 // #293241
 
- /* I am using a central file to manage variables for any main css settings i may want to adjust in a singular location, planning to also add support for light/dark themes */
+  I am using a central file to manage variables for any main css settings i may want to adjust in a singular location, planning to also add support for light/dark themes */
 :root
 {   
     /* THEMED COLORS MAIN */ 
-    --bgcolor: #DACC96;
+    --bgcolor: #293241;
     --cardcolor: #BF8B67;
-    --textcolor1: #632626;
+    --textcolor1: #ffffff;
     --textcolor2: #9D5353;
 
-    --silver-light: #f0f0f0;
+    --silver-light: #f0f0f0; 
     --silver-medium: #c0c0c0;
     --silver-dark: #a9a9a9;
     --silver-highlight: #ffffff;
@@ -29,7 +26,7 @@
     
     /* OPACITY */
     --invisible: rgba(255, 255, 255, 0.004);
-    --transparent-black: rgba(0, 0, 0, 0.45);
+    --transparent-black: rgba(0, 0, 0, 0.35);
 
     /* SPACING */
     --padding-sm: 1%;
@@ -45,6 +42,7 @@
     /* BORDERS */
     --bordercolor: #9D5353;
     
+    --radius-xs: 0.5em;
     --radius-sm: 2em;
     --radius-md: 5em;
     --radius-lg: 10em;

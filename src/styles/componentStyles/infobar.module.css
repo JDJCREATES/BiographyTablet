@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.leftContainer {
+    padding-left: 10px;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-right: 10px;
+}
+
+.statusIcon {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.time {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

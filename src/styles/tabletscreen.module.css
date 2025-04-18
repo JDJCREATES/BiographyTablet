@@ -72,3 +72,20 @@
     box-shadow: inset 0 0 7px  var(--silver-dark);
 }
 
+.actionContainer {
+    background-color: var(transparent-black);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 5%;
+    align-self: center;
+    align-content: center;
+}
+
+.backButtonContainer {
+
+}
+
+.backButton {
+
+}

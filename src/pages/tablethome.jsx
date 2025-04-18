@@ -23,7 +23,7 @@ import DownloadForOfflineRoundedIcon from '@mui/icons-material/DownloadForOfflin
 import HistoryEduRoundedIcon from '@mui/icons-material/HistoryEduRounded'; /* For education app */
 import EngineeringRoundedIcon from '@mui/icons-material/EngineeringRounded'; /* Work Experience app */
 import ArtTrackRoundedIcon from '@mui/icons-material/ArtTrackRounded'; /* Projects App */
-import AssignmentRoundedIcon from '@mui/icons-material/AssignmentRounded'; /* alternate nprojects app icon */
+import AssignmentRoundedIcon from '@mui/icons-material/AssignmentRounded'; /* alternate projects app icon */
 import AssistantPhotoRoundedIcon from '@mui/icons-material/AssistantPhotoRounded'; /* Mission Statement app */
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded'; /* Contact information app */
 import EmailIcon from '@mui/icons-material/Email';
@@ -32,16 +32,12 @@ import DeleteOutlineRoundedIcon from '@mui/icons-material/DeleteOutlineRounded';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import DeleteForeverRoundedIcon from '@mui/icons-material/DeleteForeverRounded';
 
-import DehazeRoundedIcon from '@mui/icons-material/DehazeRounded';
-import ChevronLeftRoundedIcon from '@mui/icons-material/ChevronLeftRounded';
 
 const TabletHome = () => {
-    const handleBackClick = () => {
-            window.history.back();
-        }
     
     return (
     <div className={styles.homeScreen}>
+        
         <div className={styles.appIconsGrid}>
             <Link to="/Bio" className={styles.appIcon}>
                 <AppIcon icon={<HailRoundedIcon />} title="About Me"></AppIcon>
@@ -52,14 +48,6 @@ const TabletHome = () => {
             </Link>
 
         </div>
-
-            <div className={styles.actionContainer}>
-                <div className={styles.backButtonContainer}>
-                    <button className={styles.backButton} onClick={handleBackClick}> 
-                        <ChevronLeftRoundedIcon />
-                    </button>
-                </div>
-            </div>
     </div>
     );
 };
