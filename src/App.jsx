@@ -6,9 +6,10 @@ import TabletScreen from './components/tabletscreen';
 import TabletHome from './pages/tablethome';
 import Projects from './pages/projects';
 import EmailApp from './pages/emailApp';
+import Calculator from './pages/calculator';
+import Calendar from './pages/calendar';
 
 import Bio from './pages/bio';
-
 
 {/*Handles routing and displaying the tablet screen*/}
 function App() {
@@ -20,7 +21,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/bio" element={<Bio />} />
           <Route path='/emailapp' element={<EmailApp />} />
-      
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/calendar" element={<Calendar />} />
         </Routes>
       </TabletScreen>
     </BrowserRouter>

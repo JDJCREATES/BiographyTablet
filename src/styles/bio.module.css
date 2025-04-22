@@ -14,7 +14,7 @@ dd {
     margin: 2px;
   }
 
-.main{
+.main {
     background-color: var(--bgcolor);
     height: 100%;
     width: auto;
@@ -46,7 +46,7 @@ dd {
 
 }
 
-.backgroundPic svg{
+.backgroundPic svg {
     position: absolute;
     top: 50%;
     left: 50%;

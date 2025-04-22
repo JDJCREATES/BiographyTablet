@@ -47,6 +47,7 @@
     margin-right: var(--margin-sm);
     overflow: hidden;
     align-items: center;
+    z-index: 10;
 }
 
 .homeLink {

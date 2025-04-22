@@ -9,7 +9,7 @@ import DehazeRoundedIcon from '@mui/icons-material/DehazeRounded';
 import ChevronLeftRoundedIcon from '@mui/icons-material/ChevronLeftRounded';
 import PanoramaFishEyeIcon from '@mui/icons-material/PanoramaFishEye';
 
-const TabletScreen = ({ children }) => {
+const TabletScreen = ({children}) => {
     const handleHomeClick = () => {
         // Home button functionality
     };
@@ -24,9 +24,9 @@ const TabletScreen = ({ children }) => {
           <div className={styles.innershell}>
             <div className={styles.screen} style={{ position: 'relative', overflow: 'hidden' }}>
               <QuickPanel />
-              <div style={{ height: '100%', position: 'relative', zIndex: 1 }}>
-                {children}
-              </div>
+                <div style={{ height: '100%', position: 'relative', zIndex: 1 }}>
+                  {children}
+                </div>
               <div className={styles.actionContainer}>
                 <div className={styles.backButtonContainer}>
                     <button className={styles.backButton} onClick={handleBackClick}> 
@@ -36,12 +36,12 @@ const TabletScreen = ({ children }) => {
                         <PanoramaFishEyeIcon />
                     </button>
                 </div>
-            </div>
+              </div>
             </div>
           </div>
           <div className={styles.homeButtonContainer}>
             <Link to="/" className={styles.homeLink}>
-              <button id="homeButton" onClick={handleHomeClick} className={styles.homeButton}></button> 
+              <button id="homeButton" onClick={handleHomeClick} className={styles.homeButton}>{null}</button> 
             </Link>
           </div>
         </div>

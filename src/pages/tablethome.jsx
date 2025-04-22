@@ -18,6 +18,7 @@ import ScreenRotationRoundedIcon from '@mui/icons-material/ScreenRotationRounded
 import HailRoundedIcon from '@mui/icons-material/HailRounded'; /* About me app icon */
 import FolderZipRoundedIcon from '@mui/icons-material/FolderZipRounded'; /* File app */
 import CalculateRoundedIcon from '@mui/icons-material/CalculateRounded';
+import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
 import BadgeRoundedIcon from '@mui/icons-material/BadgeRounded'; /* Business card download app*/
 import DownloadForOfflineRoundedIcon from '@mui/icons-material/DownloadForOfflineRounded';
 import HistoryEduRoundedIcon from '@mui/icons-material/HistoryEduRounded'; /* For education app */
@@ -40,13 +41,24 @@ const TabletHome = () => {
         
         <div className={styles.appIconsGrid}>
             <Link to="/Bio" className={styles.appIcon}>
-                <AppIcon icon={<HailRoundedIcon />} title="About Me"></AppIcon>
+                <AppIcon icon={<HailRoundedIcon />} title="About Me">
+                </AppIcon>
             </Link>
             
             <Link to="/EmailApp" className={styles.appIcon}>
-                <AppIcon icon={<EmailIcon />} title="U-Mail"></AppIcon>
+                <AppIcon icon={<EmailIcon />} title="U-Mail">
+                </AppIcon>
             </Link>
 
+            <Link to="/Calculator" className={styles.appIcon}>
+                <AppIcon icon={<CalculateRoundedIcon />} title="Calculator">
+                </AppIcon>
+            </Link>
+
+            <Link to="/Calendar" className={styles.appIcon}>
+                <AppIcon icon={<CalendarMonthRoundedIcon />} title="Calendar">
+                </AppIcon>
+            </Link>
         </div>
     </div>
     );

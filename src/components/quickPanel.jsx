@@ -84,14 +84,13 @@ const QuickPanel = () => {
             setIsPanelOpen(false); // Not fully open
         } else {
             // Close
-            setPanelPosition(-90);
+            setPanelPosition(-95);
             setIsPanelOpen(false); // Not open
         }
     }
 
-    // Handle closing the panel with a specific close button
     const handleClosePanel = () => {
-        setPanelPosition(-90);
+        setPanelPosition(-95);
         setIsPanelOpen(false);
     };
 
@@ -186,7 +185,7 @@ const QuickPanel = () => {
                     <input 
                         type="range" 
                         min="20" 
-                        max="100" 
+                        max="115" 
                         value={brightness}
                         onChange={(e) => setBrightness(parseInt(e.target.value))}
                         style={{ width: '100%' }}

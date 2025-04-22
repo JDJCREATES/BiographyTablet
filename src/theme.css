@@ -7,7 +7,8 @@ Hex Codes: #177e89 // #084c61 // #db3a34 // #ffc857 // #293241
 :root
 {   
     /* THEMED COLORS MAIN */ 
-    --bgcolor: #293241;
+    --bgcolor: #084c61;
+    --cards: #177e89;
     --cardcolor: #BF8B67;
     --textcolor1: #ffffff;
     --textcolor2: #9D5353;
@@ -52,6 +53,4 @@ Hex Codes: #177e89 // #084c61 // #db3a34 // #ffc857 // #293241
     --body-size: 2.5%;
     --tooltip-size: 1%;
     
-    
-
 }
